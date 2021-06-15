@@ -14,12 +14,5 @@
         </dev>
     {% endfor %}
 
-    {% for post in posts %}
-        <dev>
-            <p>published:   {{ post.published_date }}</p>
-            <h2><a href="">{{ post.title }}</a></h2>
-            <p>{{ post.text|linebreaksbr }}</p>
-        </dev>
-    {% endfor $}
     </body>
 </html>
